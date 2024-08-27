@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutoriels - Les basiques</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Scripts & Programmations</h1>
+        </div>
+        <nav>
+            <ul id="menu">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="games.html">Jeux Populaires</a></li>
+                <li><a href="tutorials.html">Tutoriels</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="https://create.roblox.com/docs/studio/setting-up-roblox-studio">Telecharger Roblox Studio</a></li>
+            </ul>
+            <button id="menu-toggle">☰</button>
+        </nav>
+    </header>
+
+    <section class="content">
+        <h2>Chap 1: Les Bases</h2>
+        <p>Biens que programmer sur roblox est dur, le lua reste quand meme le language le plus utiliser pour les jeux videos comme GDScript.
+        Mais, apprenons les basique !</p>
+        <ul>
+          
+          <section class="content">
+        <h2>Chap 2: Le Code</h2>
+        <p>Apprenons maintenant les basiques du lua:
+        <h3>local script</h3> n'est pas obligatoire si vous vouler cree des Local Script. Admettons tu veux que sa dise dans l'Output "Le joueur a appuyer sur la barre d'espace" voici un example: 
+        
+        <h3>local player = game.Players.LocalPlayer
+
+local function onKeyPress(input)
+    if input.KeyCode == Enum.KeyCode.Space then
+        print("Le joueur a appuyé sur la barre d'espace.")
+    end
+end
+
+game:GetService("UserInputService").InputBegan:Connect(onKeyPress)</h3>
+
+<h1>SE SCRIPT S'APPLIQUERAS QUE POUR VOUS DANS ROBLOX STUDIO ET POUR LES AUTRES PERSONNE SI VOUS ETES MODE COLLAB</h1>
+</p>
+        <ul>
+          
+          <script src="logic.js"></script>
